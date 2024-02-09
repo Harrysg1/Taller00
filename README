@@ -1,0 +1,16 @@
+/*
+En ejercicio 00 se une con rectangulo.h y rectangulo.cpp 
+
+Main.cpp(yo lo llame así, pero sería el Ejercicio 00):
+Este es el punto de entrada del programa. En este archivo se incluye la declaracion del objeto donde vamos a guardar la información (rect1 de tipo Rectángulo). La definición de esta clase está  en el archivo Rectangulo.h el cual se importa al main cuando lo incluimos como una librería con el #include “Rectangulo.h”
+
+Se solicita al usuario que ingrese los valores necesarios para definir un rectángulo (coordenadas X e Y de la posición, ancho y alto), se realizan los cálculos de perímetro, área y distancia al origen usando las funciones definidas en Rectangulo.cpp, y se imprime el resultado en la consola.
+
+Rectangulo.cpp: Este archivo contiene la implementación de las funciones que realizan los cálculos del perímetro, área y distancia al origen del rectángulo. Se usa la librería #include <math.h> para usar funciones matemática como sqrt()
+
+Rectangulo.h: Es un archivo de cabecera (header file) contiene la declaración de la clase Rectangulo  y las firmas de las funciones que se implementan en Rectangulo.cpp. Las cuales se usan en el main
+
+en ejercicio 01 
+Este código en C++ define una clase plantilla Node que es un componente básico para estructuras de datos como listas enlazadas. La clase Node está diseñada para almacenar un valor de cualquier tipo (T, que es el parámetro del template) y un puntero al siguiente nodo en la secuencia (next_), creando de esta manera una cadena de nodos. Además, implementa un contador estático numb_inst para llevar un seguimiento del número de instancias (nodos) creadas o destruidas en tiempo de ejecución. Aquí hay un desglose de las partes clave del código:
+
+*/
